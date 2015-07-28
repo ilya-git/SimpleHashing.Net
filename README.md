@@ -24,7 +24,7 @@ Nuget package is available here: https://www.nuget.org/packages/SimpleHashing.Ne
 
 # Security
 
-SimpleHashing.Net does not do any self-made cryptography, but it is based on Microsoft implementation of PBKDF2 via the class Rfc2898DeriveBytes. The problem with this class is that it's not very convenient to use, so this simple wrapper allows an easy integration with solutions that need to store/verify password with strong cryptography. Simplicity was the main focus, so some parameters are hard-coded to recommended values:
+SimpleHashing.Net does not do any self-made cryptography, but it is based on Microsoft implementation of PBKDF2 via the class Rfc2898DeriveBytes. The problem with this class is that it's not very convenient to use, so this simple wrapper allows an easy integration with solutions that need to store/verify password with strong cryptography. Simplicity was the main focus, so some parameters are hard-coded:
 
    1. Salt size is 16 bytes (128 bits)
    2. HashSize is 32 bytes (256 bits)
