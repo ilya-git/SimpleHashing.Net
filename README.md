@@ -30,4 +30,6 @@ SimpleHashing.Net does not do any self-made cryptography, but it is based on Mic
    2. HashSize is 32 bytes (256 bits)
    3. Default iterations count is 50000
     
-Iteration parameter can be passed to the Compute method to override the default settings. Rough estimate for execution time on few years old machine is 0.5 seconds. To increase security against brute force attacks this parameter can be increased to a desired value. There is an excellent stackexchange answer on the required number of iterations here: http://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pkbdf2-sha256/3993#3993
+Iteration parameter can be passed to the Compute method to override the default settings. Rough estimate for execution time on few years old machine is 0.5 seconds. To increase security against brute force attacks this parameter can be increased to a desired value. There is an excellent [stackexchange answer](http://security.stackexchange.com/questions/3959/recommended-of-iterations-when-using-pkbdf2-sha256/3993#3993) by Thomas Pornin on the required number of iterations here: 
+
+You can use Estimate method to check how long it will take to compute the hash string.
