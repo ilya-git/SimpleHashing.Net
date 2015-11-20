@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.Net.Tests", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.UI", "SimpleHashing.UI\SimpleHashing.UI.csproj", "{90F7B3F6-6B70-49B1-97C9-6C12F445144D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackage", "NugetPackage", "{13EB2E4B-C039-40DD-886C-1FF17E7FF49F}"
+	ProjectSection(SolutionItems) = preProject
+		NugetPackage\SimpleHashing.Net.1.0.1.nupkg = NugetPackage\SimpleHashing.Net.1.0.1.nupkg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
