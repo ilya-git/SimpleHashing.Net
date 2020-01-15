@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Authors>Ilya Chernomordik</Authors>
     <Company></Company>
     <Product />
     <Description>A simple password hashing based on top of Microsoft PBKDF2 with an easy to use interface</Description>
-    <PackageReleaseNotes>Target framework is changed to netstandard 2.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Added an additional tag to nuget</PackageReleaseNotes>
     <PackageTags>pbkdf2, cryptography, Microsoft, hash, hashing, security, encryption, password, Rfc2898DeriveBytes, bcrypt</PackageTags>
     <RepositoryUrl></RepositoryUrl>
     <PackageProjectUrl>https://github.com/ilya-git/SimpleHashing.Net</PackageProjectUrl>
