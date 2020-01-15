@@ -1,18 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.Net", "SimpleHashing.Net\SimpleHashing.Net.csproj", "{FC147277-5157-4BD9-A61A-520FE46A6DFE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.Net.Tests", "SimpleHashing.Net.Tests\SimpleHashing.Net.Tests.csproj", "{FB484F2F-EBE9-43F8-BE23-8C7EB0F98A38}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.UI", "SimpleHashing.UI\SimpleHashing.UI.csproj", "{90F7B3F6-6B70-49B1-97C9-6C12F445144D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{13EB2E4B-C039-40DD-886C-1FF17E7FF49F}"
-	ProjectSection(SolutionItems) = preProject
-		NugetPackage\SimpleHashing.Net.1.0.1.nuspec = NugetPackage\SimpleHashing.Net.1.0.1.nuspec
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.Net", "SimpleHashing.Net\SimpleHashing.Net.csproj", "{7E8A0E0B-CDD1-4A7B-957F-EC57D5CFB5CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHashing.Net.Tests", "SimpleHashing.Net.Tests\SimpleHashing.Net.Tests.csproj", "{F09F9A8D-E8CD-42B8-AEED-7DF74DC53177}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,20 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC147277-5157-4BD9-A61A-520FE46A6DFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC147277-5157-4BD9-A61A-520FE46A6DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC147277-5157-4BD9-A61A-520FE46A6DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC147277-5157-4BD9-A61A-520FE46A6DFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB484F2F-EBE9-43F8-BE23-8C7EB0F98A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB484F2F-EBE9-43F8-BE23-8C7EB0F98A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB484F2F-EBE9-43F8-BE23-8C7EB0F98A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB484F2F-EBE9-43F8-BE23-8C7EB0F98A38}.Release|Any CPU.Build.0 = Release|Any CPU
 		{90F7B3F6-6B70-49B1-97C9-6C12F445144D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{90F7B3F6-6B70-49B1-97C9-6C12F445144D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90F7B3F6-6B70-49B1-97C9-6C12F445144D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90F7B3F6-6B70-49B1-97C9-6C12F445144D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E8A0E0B-CDD1-4A7B-957F-EC57D5CFB5CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8A0E0B-CDD1-4A7B-957F-EC57D5CFB5CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8A0E0B-CDD1-4A7B-957F-EC57D5CFB5CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8A0E0B-CDD1-4A7B-957F-EC57D5CFB5CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09F9A8D-E8CD-42B8-AEED-7DF74DC53177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09F9A8D-E8CD-42B8-AEED-7DF74DC53177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09F9A8D-E8CD-42B8-AEED-7DF74DC53177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09F9A8D-E8CD-42B8-AEED-7DF74DC53177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {060BCCC4-C94A-4E59-AF4D-656F8868E71A}
 	EndGlobalSection
 EndGlobal

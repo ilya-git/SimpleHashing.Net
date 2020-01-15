@@ -2,7 +2,7 @@
 
 namespace SimpleHashing.Net
 {
-    internal class SimpleHashParameters
+    public class SimpleHashParameters
     {
         public string Algorithm { get; private set; }
 
