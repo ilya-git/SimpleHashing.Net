@@ -16,11 +16,7 @@ Nuget package is available here: https://www.nuget.org/packages/SimpleHashing.Ne
 	            
     // Validating user's password by first loading it from database by username
     string storedHash = _repository.GetUserPasswordHash(username);
-    bool isPasswordValid = false;
-    if (storedHash != null)
-    {
-        isPasswordValid = simpleHash.Verify("Password123", storedHash);
-    }
+    bool isPasswordValid = simpleHash.Verify("Password123", storedHash);    
 
 # Security
 
