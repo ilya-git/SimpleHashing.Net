@@ -20,9 +20,8 @@ namespace SimpleHashing.Net.Tests
         [TestMethod]
         public void Estimate_Always_ReturnsReasonableTime()
         {
-            TimeSpan estimate = m_SimpleHash.Estimate(TestPassword, 50);
-
-            Assert.IsTrue(estimate.TotalMilliseconds < 10);
+            var estimate = m_SimpleHash.Estimate(TestPassword, 50);
+            Assert.IsTrue(estimate.TotalMilliseconds < 50);
         }
 
         [TestMethod, ExpectedException(typeof (ArgumentException))]
@@ -64,7 +63,7 @@ namespace SimpleHashing.Net.Tests
         }
 
         [TestMethod]
-        public void Verfiy_WithoutIterationsParameter_WorksWithDefault()
+        public void Verify_WithoutIterationsParameter_WorksWithDefault()
         {
             string hash = m_SimpleHash.Compute(TestPassword);
 

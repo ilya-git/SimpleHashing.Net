@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SimpleHashing.Net
 {
@@ -16,7 +17,10 @@ namespace SimpleHashing.Net
         {
             string[] parameters = ParseParameters(passwordHashString);
 
-            ProcessParameters(parameters);
+            Algorithm = parameters[0];
+            Iterations = int.Parse(parameters[1]);
+            Salt = parameters[2];
+            PasswordHash = parameters[3];
         }
 
         private static string[] ParseParameters(string passwordHashString)
@@ -28,14 +32,6 @@ namespace SimpleHashing.Net
                 throw new ArgumentException("Invalid password hash string format", nameof(passwordHashString));
             }
             return parameters;
-        }
-
-        private void ProcessParameters(string[] parameters)
-        {
-            Algorithm = parameters[0];
-            Iterations = int.Parse(parameters[1]);
-            Salt = parameters[2];
-            PasswordHash = parameters[3];
         }
     }
 }
